@@ -14,6 +14,7 @@ void	print_struct(t_user *user)
 	printf("Age:\t%d\n", user->age);
 	printf("ID:\t%ld\n", user->id);
 }
+/*
 int	main()
 {
 	t_user user1, user2;
@@ -31,3 +32,4 @@ int	main()
 	printf("\nThe second user:\n");
 	print_struct(&user2);
 }
+*/
