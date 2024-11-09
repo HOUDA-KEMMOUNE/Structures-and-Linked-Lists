@@ -13,5 +13,6 @@ typedef struct		s_node
 void	count_node(t_node *head);
 void	print_node(t_node *head);
 void	add_at_end(t_node *head, int new_data);
+struct s_node	*add_node(t_node *ptr, int new_data);
 
 #endif
