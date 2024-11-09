@@ -20,10 +20,13 @@ int main()
 
 	tail->data = 52;
 	tail->next = NULL;
-
 	head->next = tail;
 
+	tail->data = 76;
+	tail->next = NULL;
+	head->next->next = tail;
+
 	printf("The data of the first node:\t%d\n", head->data);
-	printf("The data of the second node:\t%d\n", tail->data);	
+	printf("The data of the last node:\t%d\n", tail->data);
 }
 */
