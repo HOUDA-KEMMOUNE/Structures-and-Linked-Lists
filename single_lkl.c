@@ -25,7 +25,5 @@ int main()
 
 	printf("The data of the first node:\t%d\n", head->data);
 	printf("The data of the second node:\t%d\n", tail->data);	
-
-	free(tail);
 }
 */
